@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DB5FBDF192B80B600D1C02E /* Instructions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB5FBDE192B80B600D1C02E /* Instructions.m */; };
+		9447D3D618AD748600485DAC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9447D3D518AD748600485DAC /* AudioToolbox.framework */; };
+		945CB5B618A67CA10087BCC5 /* Midbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 945CB5B518A67CA10087BCC5 /* Midbackground.png */; };
+		945CB5BA18A67EC80087BCC5 /* LongBackSky.png in Resources */ = {isa = PBXBuildFile; fileRef = 945CB5B918A67EC80087BCC5 /* LongBackSky.png */; };
+		945CB5E418A6D5350087BCC5 /* Round2.m in Sources */ = {isa = PBXBuildFile; fileRef = 945CB5E318A6D5350087BCC5 /* Round2.m */; };
+		947707AC189E26C400AC9893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947707AB189E26C400AC9893 /* Foundation.framework */; };
+		947707AE189E26C400AC9893 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947707AD189E26C400AC9893 /* CoreGraphics.framework */; };
+		947707B0189E26C400AC9893 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947707AF189E26C400AC9893 /* UIKit.framework */; };
+		947707B2189E26C400AC9893 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947707B1189E26C400AC9893 /* SpriteKit.framework */; };
+		947707B8189E26C400AC9893 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 947707B6189E26C400AC9893 /* InfoPlist.strings */; };
+		947707BA189E26C400AC9893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 947707B9189E26C400AC9893 /* main.m */; };
+		947707BE189E26C400AC9893 /* SlothAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 947707BD189E26C400AC9893 /* SlothAppDelegate.m */; };
+		947707C1189E26C400AC9893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947707BF189E26C400AC9893 /* Main.storyboard */; };
+		947707C4189E26C400AC9893 /* SlothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 947707C3189E26C400AC9893 /* SlothViewController.m */; };
+		947707C7189E26C400AC9893 /* SlothMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 947707C6189E26C400AC9893 /* SlothMyScene.m */; };
+		947707CB189E26C400AC9893 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947707CA189E26C400AC9893 /* Images.xcassets */; };
+		947707D2189E26C400AC9893 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947707D1189E26C400AC9893 /* XCTest.framework */; };
+		947707D3189E26C400AC9893 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947707AB189E26C400AC9893 /* Foundation.framework */; };
+		947707D4189E26C400AC9893 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 947707AF189E26C400AC9893 /* UIKit.framework */; };
+		947707DC189E26C400AC9893 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 947707DA189E26C400AC9893 /* InfoPlist.strings */; };
+		947707DE189E26C400AC9893 /* Sloth_BlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 947707DD189E26C400AC9893 /* Sloth_BlockTests.m */; };
+		94770809189E44C300AC9893 /* Blue Berry.png in Resources */ = {isa = PBXBuildFile; fileRef = 94770808189E44C300AC9893 /* Blue Berry.png */; };
+		9477080D189E558F00AC9893 /* character.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 9477080C189E558F00AC9893 /* character.atlas */; };
+		94770862189E66EA00AC9893 /* FMMParallaxNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 94770861189E66EA00AC9893 /* FMMParallaxNode.m */; };
+		94770866189E6A9700AC9893 /* Clouds-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 94770863189E6A9700AC9893 /* Clouds-01.png */; };
+		94770867189E6A9700AC9893 /* Clouds1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94770864189E6A9700AC9893 /* Clouds1.png */; };
+		94770868189E6A9700AC9893 /* Clouds2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94770865189E6A9700AC9893 /* Clouds2.png */; };
+		94770879189E779800AC9893 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94770877189E779800AC9893 /* MyParticle.sks */; };
+		9477087A189E779800AC9893 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 94770878189E779800AC9893 /* spark.png */; };
+		9477087C189E8BA700AC9893 /* SlothBlockBG-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9477087B189E8BA700AC9893 /* SlothBlockBG-01.jpg */; };
+		94770882189E997D00AC9893 /* StartScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 94770881189E997D00AC9893 /* StartScene.m */; };
+		947EB32B18A5789B00B7B55D /* TrainTracks.png in Resources */ = {isa = PBXBuildFile; fileRef = 947EB32A18A5789B00B7B55D /* TrainTracks.png */; };
+		949664A618A04639002AA3B0 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 949664A518A04639002AA3B0 /* GameOverScene.m */; };
+		949664AD18A04FBB002AA3B0 /* SF_Archery_Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 949664A818A04FBB002AA3B0 /* SF_Archery_Black.ttf */; };
+		949664AE18A04FBB002AA3B0 /* SF_Archery_Black_Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 949664A918A04FBB002AA3B0 /* SF_Archery_Black_Oblique.ttf */; };
+		949664AF18A04FBB002AA3B0 /* SF_Archery_Black_SC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 949664AA18A04FBB002AA3B0 /* SF_Archery_Black_SC.ttf */; };
+		949664B018A04FBB002AA3B0 /* SF_Archery_Black_SC_Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 949664AB18A04FBB002AA3B0 /* SF_Archery_Black_SC_Oblique.ttf */; };
+		949664B118A04FBB002AA3B0 /* ShyFonts Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 949664AC18A04FBB002AA3B0 /* ShyFonts Font License.txt */; };
+		949664B418A08821002AA3B0 /* LoadingScreen.sks in Resources */ = {isa = PBXBuildFile; fileRef = 949664B218A08821002AA3B0 /* LoadingScreen.sks */; };
+		949664B518A08821002AA3B0 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 949664B318A08821002AA3B0 /* bokeh.png */; };
+		949664BB18A08C3F002AA3B0 /* SlothToss-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 949664BA18A08C3F002AA3B0 /* SlothToss-01.png */; };
+		949664C218A091BC002AA3B0 /* Cloud2.png in Resources */ = {isa = PBXBuildFile; fileRef = 949664BF18A091BC002AA3B0 /* Cloud2.png */; };
+		949664C318A091BC002AA3B0 /* Cloud3.png in Resources */ = {isa = PBXBuildFile; fileRef = 949664C018A091BC002AA3B0 /* Cloud3.png */; };
+		949664C518A09581002AA3B0 /* Red Berry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 949664C418A09581002AA3B0 /* Red Berry@2x.png */; };
+		949664C718A09587002AA3B0 /* Blue Berry@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 949664C618A09587002AA3B0 /* Blue Berry@2x.png */; };
+		949664CB18A09E21002AA3B0 /* GameOver-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 949664CA18A09E21002AA3B0 /* GameOver-01.png */; };
+		949664D118A0A105002AA3B0 /* PlayAgain1.png in Resources */ = {isa = PBXBuildFile; fileRef = 949664D018A0A105002AA3B0 /* PlayAgain1.png */; };
+		94A0F1AF18B56E45005DC621 /* PauseButtonButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A0F1AE18B56E45005DC621 /* PauseButtonButton.png */; };
+		94A0F1B118B56E4B005DC621 /* PlayButtonButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 94A0F1B018B56E4B005DC621 /* PlayButtonButton.png */; };
+		94B4BE8718AEF2F1009BB925 /* Sky-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BE8218AEF2F1009BB925 /* Sky-01.png */; };
+		94B4BE8818AEF2F1009BB925 /* Sky-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BE8318AEF2F1009BB925 /* Sky-02.png */; };
+		94B4BE8918AEF2F1009BB925 /* Sky-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BE8418AEF2F1009BB925 /* Sky-03.png */; };
+		94B4BE8A18AEF2F1009BB925 /* Sky-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BE8518AEF2F1009BB925 /* Sky-04.png */; };
+		94B4BE8B18AEF2F1009BB925 /* Sky-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BE8618AEF2F1009BB925 /* Sky-05.png */; };
+		94B4BE9018AEF758009BB925 /* Farbackground1-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BE8C18AEF758009BB925 /* Farbackground1-01.png */; };
+		94B4BE9118AEF758009BB925 /* Farbackground1-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BE8D18AEF758009BB925 /* Farbackground1-02.png */; };
+		94B4BE9218AEF758009BB925 /* Farbackground1-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BE8E18AEF758009BB925 /* Farbackground1-03.png */; };
+		94B4BE9318AEF758009BB925 /* Farbackground1-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BE8F18AEF758009BB925 /* Farbackground1-04.png */; };
+		94B4BEA618AEFC66009BB925 /* Midbackground-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEA018AEFC66009BB925 /* Midbackground-01.png */; };
+		94B4BEA718AEFC66009BB925 /* Midbackground-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEA118AEFC66009BB925 /* Midbackground-02.png */; };
+		94B4BEA818AEFC66009BB925 /* Midbackground-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEA218AEFC66009BB925 /* Midbackground-03.png */; };
+		94B4BEA918AEFC66009BB925 /* Midbackground-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEA318AEFC66009BB925 /* Midbackground-04.png */; };
+		94B4BEAA18AEFC66009BB925 /* Midbackground-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEA418AEFC66009BB925 /* Midbackground-05.png */; };
+		94B4BEAB18AEFC66009BB925 /* Midbackground-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEA518AEFC66009BB925 /* Midbackground-06.png */; };
+		94B4BEAD18AF3ACA009BB925 /* PauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEAC18AF3ACA009BB925 /* PauseButton.png */; };
+		94B4BEAF18AF3F3A009BB925 /* Pause-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEAE18AF3F3A009BB925 /* Pause-02.png */; };
+		94B4BEB218AFD040009BB925 /* KenRaps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEB118AFD040009BB925 /* KenRaps.mp3 */; };
+		94B4BEB518AFD112009BB925 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B4BEB418AFD112009BB925 /* SoundManager.m */; };
+		94B4BEBA18AFE6B7009BB925 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEB818AFE6B7009BB925 /* Play.png */; };
+		94B4BEBB18AFE6B7009BB925 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEB918AFE6B7009BB925 /* Twitter.png */; };
+		94B4BEBD18AFEB38009BB925 /* GameOver.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEBC18AFEB38009BB925 /* GameOver.png */; };
+		94B4BEBF18AFEC87009BB925 /* button-10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94B4BEBE18AFEC87009BB925 /* button-10.mp3 */; };
+		94E45DB818B3EF54008FD29F /* Berries.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94E45DB718B3EF54008FD29F /* Berries.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		947707D5189E26C400AC9893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 947707A0189E26C400AC9893 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 947707A7189E26C400AC9893;
+			remoteInfo = "Sloth Block";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DB5FBDD192B80B600D1C02E /* Instructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Instructions.h; sourceTree = "<group>"; };
+		5DB5FBDE192B80B600D1C02E /* Instructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Instructions.m; sourceTree = "<group>"; };
+		9447D3D518AD748600485DAC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		945CB5B518A67CA10087BCC5 /* Midbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Midbackground.png; sourceTree = "<group>"; };
+		945CB5B918A67EC80087BCC5 /* LongBackSky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LongBackSky.png; sourceTree = "<group>"; };
+		945CB5E218A6D5350087BCC5 /* Round2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round2.h; sourceTree = "<group>"; };
+		945CB5E318A6D5350087BCC5 /* Round2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round2.m; sourceTree = "<group>"; };
+		947707A8189E26C400AC9893 /* Sloth Block.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sloth Block.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947707AB189E26C400AC9893 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		947707AD189E26C400AC9893 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		947707AF189E26C400AC9893 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		947707B1189E26C400AC9893 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		947707B5189E26C400AC9893 /* Sloth Block-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sloth Block-Info.plist"; sourceTree = "<group>"; };
+		947707B7189E26C400AC9893 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		947707B9189E26C400AC9893 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		947707BB189E26C400AC9893 /* Sloth Block-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sloth Block-Prefix.pch"; sourceTree = "<group>"; };
+		947707BC189E26C400AC9893 /* SlothAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlothAppDelegate.h; sourceTree = "<group>"; };
+		947707BD189E26C400AC9893 /* SlothAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlothAppDelegate.m; sourceTree = "<group>"; };
+		947707C0189E26C400AC9893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		947707C2189E26C400AC9893 /* SlothViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlothViewController.h; sourceTree = "<group>"; };
+		947707C3189E26C400AC9893 /* SlothViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlothViewController.m; sourceTree = "<group>"; };
+		947707C5189E26C400AC9893 /* SlothMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlothMyScene.h; sourceTree = "<group>"; };
+		947707C6189E26C400AC9893 /* SlothMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlothMyScene.m; sourceTree = "<group>"; };
+		947707CA189E26C400AC9893 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		947707D0189E26C400AC9893 /* Sloth BlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sloth BlockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947707D1189E26C400AC9893 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		947707D9189E26C400AC9893 /* Sloth BlockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sloth BlockTests-Info.plist"; sourceTree = "<group>"; };
+		947707DB189E26C400AC9893 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		947707DD189E26C400AC9893 /* Sloth_BlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sloth_BlockTests.m; sourceTree = "<group>"; };
+		94770808189E44C300AC9893 /* Blue Berry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Berry.png"; sourceTree = "<group>"; };
+		9477080C189E558F00AC9893 /* character.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = character.atlas; sourceTree = "<group>"; };
+		94770860189E66EA00AC9893 /* FMMParallaxNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMParallaxNode.h; sourceTree = "<group>"; };
+		94770861189E66EA00AC9893 /* FMMParallaxNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMParallaxNode.m; sourceTree = "<group>"; };
+		94770863189E6A9700AC9893 /* Clouds-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clouds-01.png"; sourceTree = "<group>"; };
+		94770864189E6A9700AC9893 /* Clouds1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clouds1.png; sourceTree = "<group>"; };
+		94770865189E6A9700AC9893 /* Clouds2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clouds2.png; sourceTree = "<group>"; };
+		94770877189E779800AC9893 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		94770878189E779800AC9893 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		9477087B189E8BA700AC9893 /* SlothBlockBG-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "SlothBlockBG-01.jpg"; sourceTree = "<group>"; };
+		94770880189E997D00AC9893 /* StartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScene.h; sourceTree = "<group>"; };
+		94770881189E997D00AC9893 /* StartScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScene.m; sourceTree = "<group>"; };
+		947EB32A18A5789B00B7B55D /* TrainTracks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrainTracks.png; sourceTree = "<group>"; };
+		949664A418A04639002AA3B0 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		949664A518A04639002AA3B0 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		949664A818A04FBB002AA3B0 /* SF_Archery_Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SF_Archery_Black.ttf; sourceTree = "<group>"; };
+		949664A918A04FBB002AA3B0 /* SF_Archery_Black_Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SF_Archery_Black_Oblique.ttf; sourceTree = "<group>"; };
+		949664AA18A04FBB002AA3B0 /* SF_Archery_Black_SC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SF_Archery_Black_SC.ttf; sourceTree = "<group>"; };
+		949664AB18A04FBB002AA3B0 /* SF_Archery_Black_SC_Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SF_Archery_Black_SC_Oblique.ttf; sourceTree = "<group>"; };
+		949664AC18A04FBB002AA3B0 /* ShyFonts Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "ShyFonts Font License.txt"; sourceTree = "<group>"; };
+		949664B218A08821002AA3B0 /* LoadingScreen.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LoadingScreen.sks; sourceTree = "<group>"; };
+		949664B318A08821002AA3B0 /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		949664BA18A08C3F002AA3B0 /* SlothToss-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SlothToss-01.png"; sourceTree = "<group>"; };
+		949664BF18A091BC002AA3B0 /* Cloud2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud2.png; sourceTree = "<group>"; };
+		949664C018A091BC002AA3B0 /* Cloud3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cloud3.png; sourceTree = "<group>"; };
+		949664C418A09581002AA3B0 /* Red Berry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Berry@2x.png"; sourceTree = "<group>"; };
+		949664C618A09587002AA3B0 /* Blue Berry@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Berry@2x.png"; sourceTree = "<group>"; };
+		949664CA18A09E21002AA3B0 /* GameOver-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GameOver-01.png"; sourceTree = "<group>"; };
+		949664D018A0A105002AA3B0 /* PlayAgain1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayAgain1.png; sourceTree = "<group>"; };
+		94A0F1AE18B56E45005DC621 /* PauseButtonButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButtonButton.png; sourceTree = "<group>"; };
+		94A0F1B018B56E4B005DC621 /* PlayButtonButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButtonButton.png; sourceTree = "<group>"; };
+		94B4BE8218AEF2F1009BB925 /* Sky-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sky-01.png"; sourceTree = "<group>"; };
+		94B4BE8318AEF2F1009BB925 /* Sky-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sky-02.png"; sourceTree = "<group>"; };
+		94B4BE8418AEF2F1009BB925 /* Sky-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sky-03.png"; sourceTree = "<group>"; };
+		94B4BE8518AEF2F1009BB925 /* Sky-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sky-04.png"; sourceTree = "<group>"; };
+		94B4BE8618AEF2F1009BB925 /* Sky-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sky-05.png"; sourceTree = "<group>"; };
+		94B4BE8C18AEF758009BB925 /* Farbackground1-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farbackground1-01.png"; path = "../../MidBackgroud/Farbackground1-01.png"; sourceTree = "<group>"; };
+		94B4BE8D18AEF758009BB925 /* Farbackground1-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farbackground1-02.png"; path = "../../MidBackgroud/Farbackground1-02.png"; sourceTree = "<group>"; };
+		94B4BE8E18AEF758009BB925 /* Farbackground1-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farbackground1-03.png"; path = "../../MidBackgroud/Farbackground1-03.png"; sourceTree = "<group>"; };
+		94B4BE8F18AEF758009BB925 /* Farbackground1-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Farbackground1-04.png"; path = "../../MidBackgroud/Farbackground1-04.png"; sourceTree = "<group>"; };
+		94B4BEA018AEFC66009BB925 /* Midbackground-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Midbackground-01.png"; sourceTree = "<group>"; };
+		94B4BEA118AEFC66009BB925 /* Midbackground-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Midbackground-02.png"; sourceTree = "<group>"; };
+		94B4BEA218AEFC66009BB925 /* Midbackground-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Midbackground-03.png"; sourceTree = "<group>"; };
+		94B4BEA318AEFC66009BB925 /* Midbackground-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Midbackground-04.png"; sourceTree = "<group>"; };
+		94B4BEA418AEFC66009BB925 /* Midbackground-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Midbackground-05.png"; sourceTree = "<group>"; };
+		94B4BEA518AEFC66009BB925 /* Midbackground-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Midbackground-06.png"; sourceTree = "<group>"; };
+		94B4BEAC18AF3ACA009BB925 /* PauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseButton.png; sourceTree = "<group>"; };
+		94B4BEAE18AF3F3A009BB925 /* Pause-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pause-02.png"; sourceTree = "<group>"; };
+		94B4BEB118AFD040009BB925 /* KenRaps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KenRaps.mp3; sourceTree = "<group>"; };
+		94B4BEB318AFD112009BB925 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		94B4BEB418AFD112009BB925 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		94B4BEB818AFE6B7009BB925 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		94B4BEB918AFE6B7009BB925 /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		94B4BEBC18AFEB38009BB925 /* GameOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameOver.png; sourceTree = "<group>"; };
+		94B4BEBE18AFEC87009BB925 /* button-10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "button-10.mp3"; sourceTree = "<group>"; };
+		94E45DB718B3EF54008FD29F /* Berries.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Berries.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		947707A5189E26C400AC9893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9447D3D618AD748600485DAC /* AudioToolbox.framework in Frameworks */,
+				947707AE189E26C400AC9893 /* CoreGraphics.framework in Frameworks */,
+				947707B0189E26C400AC9893 /* UIKit.framework in Frameworks */,
+				947707B2189E26C400AC9893 /* SpriteKit.framework in Frameworks */,
+				947707AC189E26C400AC9893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947707CD189E26C400AC9893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947707D2189E26C400AC9893 /* XCTest.framework in Frameworks */,
+				947707D4189E26C400AC9893 /* UIKit.framework in Frameworks */,
+				947707D3189E26C400AC9893 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94232BCE18B86CC500305A73 /* Other Code */ = {
+			isa = PBXGroup;
+			children = (
+				947707BC189E26C400AC9893 /* SlothAppDelegate.h */,
+				947707BD189E26C400AC9893 /* SlothAppDelegate.m */,
+				94770860189E66EA00AC9893 /* FMMParallaxNode.h */,
+				94770861189E66EA00AC9893 /* FMMParallaxNode.m */,
+				94B4BEB318AFD112009BB925 /* SoundManager.h */,
+				94B4BEB418AFD112009BB925 /* SoundManager.m */,
+				947707B5189E26C400AC9893 /* Sloth Block-Info.plist */,
+				947707B6189E26C400AC9893 /* InfoPlist.strings */,
+				947707B9189E26C400AC9893 /* main.m */,
+				947707BB189E26C400AC9893 /* Sloth Block-Prefix.pch */,
+			);
+			name = "Other Code";
+			sourceTree = "<group>";
+		};
+		945CB5BD18A6CCEF0087BCC5 /* Sky Parallax */ = {
+			isa = PBXGroup;
+			children = (
+				94B4BE8618AEF2F1009BB925 /* Sky-05.png */,
+				94B4BE8518AEF2F1009BB925 /* Sky-04.png */,
+				94B4BE8218AEF2F1009BB925 /* Sky-01.png */,
+				94B4BE8318AEF2F1009BB925 /* Sky-02.png */,
+				94B4BE8418AEF2F1009BB925 /* Sky-03.png */,
+			);
+			path = "Sky Parallax";
+			sourceTree = "<group>";
+		};
+		945CB5CA18A6CF6A0087BCC5 /* BackgroundFarParallax */ = {
+			isa = PBXGroup;
+			children = (
+				94B4BE8E18AEF758009BB925 /* Farbackground1-03.png */,
+				94B4BE8C18AEF758009BB925 /* Farbackground1-01.png */,
+				94B4BE8D18AEF758009BB925 /* Farbackground1-02.png */,
+				94B4BE8F18AEF758009BB925 /* Farbackground1-04.png */,
+			);
+			name = BackgroundFarParallax;
+			path = "Sky Parallax/BackgroundFarParallax";
+			sourceTree = "<group>";
+		};
+		945CB5CF18A6D1990087BCC5 /* MidBackgroud */ = {
+			isa = PBXGroup;
+			children = (
+				94B4BEA218AEFC66009BB925 /* Midbackground-03.png */,
+				94B4BEA018AEFC66009BB925 /* Midbackground-01.png */,
+				94B4BEA118AEFC66009BB925 /* Midbackground-02.png */,
+				94B4BEA318AEFC66009BB925 /* Midbackground-04.png */,
+				94B4BEA418AEFC66009BB925 /* Midbackground-05.png */,
+				94B4BEA518AEFC66009BB925 /* Midbackground-06.png */,
+			);
+			path = MidBackgroud;
+			sourceTree = "<group>";
+		};
+		945CB5E518A6DCBB0087BCC5 /* Round1 */ = {
+			isa = PBXGroup;
+			children = (
+				945CB5BD18A6CCEF0087BCC5 /* Sky Parallax */,
+				945CB5CA18A6CF6A0087BCC5 /* BackgroundFarParallax */,
+				945CB5CF18A6D1990087BCC5 /* MidBackgroud */,
+			);
+			name = Round1;
+			sourceTree = "<group>";
+		};
+		9477079F189E26C400AC9893 = {
+			isa = PBXGroup;
+			children = (
+				947707B3189E26C400AC9893 /* Sloth Block */,
+				947707D7189E26C400AC9893 /* Sloth BlockTests */,
+				947707AA189E26C400AC9893 /* Frameworks */,
+				947707A9189E26C400AC9893 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		947707A9189E26C400AC9893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				947707A8189E26C400AC9893 /* Sloth Block.app */,
+				947707D0189E26C400AC9893 /* Sloth BlockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		947707AA189E26C400AC9893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9447D3D518AD748600485DAC /* AudioToolbox.framework */,
+				947707AB189E26C400AC9893 /* Foundation.framework */,
+				947707AD189E26C400AC9893 /* CoreGraphics.framework */,
+				947707AF189E26C400AC9893 /* UIKit.framework */,
+				947707B1189E26C400AC9893 /* SpriteKit.framework */,
+				947707D1189E26C400AC9893 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		947707B3189E26C400AC9893 /* Sloth Block */ = {
+			isa = PBXGroup;
+			children = (
+				947707BF189E26C400AC9893 /* Main.storyboard */,
+				9477088D189EA09200AC9893 /* Game Scene */,
+				947707B4189E26C400AC9893 /* Supporting Files */,
+			);
+			path = "Sloth Block";
+			sourceTree = "<group>";
+		};
+		947707B4189E26C400AC9893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94232BCE18B86CC500305A73 /* Other Code */,
+				947707CA189E26C400AC9893 /* Images.xcassets */,
+				9477080C189E558F00AC9893 /* character.atlas */,
+				945CB5E518A6DCBB0087BCC5 /* Round1 */,
+				949664A718A04FBB002AA3B0 /* SF-Archery-Black */,
+				949664B218A08821002AA3B0 /* LoadingScreen.sks */,
+				94E45DB718B3EF54008FD29F /* Berries.sks */,
+				94770877189E779800AC9893 /* MyParticle.sks */,
+				94B4BEB118AFD040009BB925 /* KenRaps.mp3 */,
+				94B4BEBE18AFEC87009BB925 /* button-10.mp3 */,
+				9477087B189E8BA700AC9893 /* SlothBlockBG-01.jpg */,
+				949664B318A08821002AA3B0 /* bokeh.png */,
+				94B4BEBC18AFEB38009BB925 /* GameOver.png */,
+				94770878189E779800AC9893 /* spark.png */,
+				94B4BEB818AFE6B7009BB925 /* Play.png */,
+				94B4BEB918AFE6B7009BB925 /* Twitter.png */,
+				949664C618A09587002AA3B0 /* Blue Berry@2x.png */,
+				945CB5B518A67CA10087BCC5 /* Midbackground.png */,
+				949664CA18A09E21002AA3B0 /* GameOver-01.png */,
+				94B4BEAC18AF3ACA009BB925 /* PauseButton.png */,
+				94A0F1AE18B56E45005DC621 /* PauseButtonButton.png */,
+				94B4BEAE18AF3F3A009BB925 /* Pause-02.png */,
+				949664BF18A091BC002AA3B0 /* Cloud2.png */,
+				949664C018A091BC002AA3B0 /* Cloud3.png */,
+				947EB32A18A5789B00B7B55D /* TrainTracks.png */,
+				945CB5B918A67EC80087BCC5 /* LongBackSky.png */,
+				949664C418A09581002AA3B0 /* Red Berry@2x.png */,
+				94A0F1B018B56E4B005DC621 /* PlayButtonButton.png */,
+				94770863189E6A9700AC9893 /* Clouds-01.png */,
+				94770864189E6A9700AC9893 /* Clouds1.png */,
+				949664BA18A08C3F002AA3B0 /* SlothToss-01.png */,
+				94770865189E6A9700AC9893 /* Clouds2.png */,
+				949664D018A0A105002AA3B0 /* PlayAgain1.png */,
+				94770808189E44C300AC9893 /* Blue Berry.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		947707D7189E26C400AC9893 /* Sloth BlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				947707DD189E26C400AC9893 /* Sloth_BlockTests.m */,
+				947707D8189E26C400AC9893 /* Supporting Files */,
+			);
+			path = "Sloth BlockTests";
+			sourceTree = "<group>";
+		};
+		947707D8189E26C400AC9893 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				947707D9189E26C400AC9893 /* Sloth BlockTests-Info.plist */,
+				947707DA189E26C400AC9893 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9477088D189EA09200AC9893 /* Game Scene */ = {
+			isa = PBXGroup;
+			children = (
+				947707C2189E26C400AC9893 /* SlothViewController.h */,
+				947707C3189E26C400AC9893 /* SlothViewController.m */,
+				947707C5189E26C400AC9893 /* SlothMyScene.h */,
+				947707C6189E26C400AC9893 /* SlothMyScene.m */,
+				945CB5E218A6D5350087BCC5 /* Round2.h */,
+				945CB5E318A6D5350087BCC5 /* Round2.m */,
+				949664A418A04639002AA3B0 /* GameOverScene.h */,
+				949664A518A04639002AA3B0 /* GameOverScene.m */,
+				94770880189E997D00AC9893 /* StartScene.h */,
+				94770881189E997D00AC9893 /* StartScene.m */,
+				5DB5FBDD192B80B600D1C02E /* Instructions.h */,
+				5DB5FBDE192B80B600D1C02E /* Instructions.m */,
+			);
+			name = "Game Scene";
+			sourceTree = "<group>";
+		};
+		949664A718A04FBB002AA3B0 /* SF-Archery-Black */ = {
+			isa = PBXGroup;
+			children = (
+				949664A818A04FBB002AA3B0 /* SF_Archery_Black.ttf */,
+				949664A918A04FBB002AA3B0 /* SF_Archery_Black_Oblique.ttf */,
+				949664AA18A04FBB002AA3B0 /* SF_Archery_Black_SC.ttf */,
+				949664AB18A04FBB002AA3B0 /* SF_Archery_Black_SC_Oblique.ttf */,
+				949664AC18A04FBB002AA3B0 /* ShyFonts Font License.txt */,
+			);
+			path = "SF-Archery-Black";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		947707A7189E26C400AC9893 /* Sloth Block */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947707E1189E26C400AC9893 /* Build configuration list for PBXNativeTarget "Sloth Block" */;
+			buildPhases = (
+				947707A4189E26C400AC9893 /* Sources */,
+				947707A5189E26C400AC9893 /* Frameworks */,
+				947707A6189E26C400AC9893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sloth Block";
+			productName = "Sloth Block";
+			productReference = 947707A8189E26C400AC9893 /* Sloth Block.app */;
+			productType = "com.apple.product-type.application";
+		};
+		947707CF189E26C400AC9893 /* Sloth BlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 947707E4189E26C400AC9893 /* Build configuration list for PBXNativeTarget "Sloth BlockTests" */;
+			buildPhases = (
+				947707CC189E26C400AC9893 /* Sources */,
+				947707CD189E26C400AC9893 /* Frameworks */,
+				947707CE189E26C400AC9893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				947707D6189E26C400AC9893 /* PBXTargetDependency */,
+			);
+			name = "Sloth BlockTests";
+			productName = "Sloth BlockTests";
+			productReference = 947707D0189E26C400AC9893 /* Sloth BlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		947707A0189E26C400AC9893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Sloth;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ryan Temple";
+				TargetAttributes = {
+					947707A7189E26C400AC9893 = {
+						DevelopmentTeam = 4B2232Q834;
+					};
+					947707CF189E26C400AC9893 = {
+						TestTargetID = 947707A7189E26C400AC9893;
+					};
+				};
+			};
+			buildConfigurationList = 947707A3189E26C400AC9893 /* Build configuration list for PBXProject "Sloth Block" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9477079F189E26C400AC9893;
+			productRefGroup = 947707A9189E26C400AC9893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				947707A7189E26C400AC9893 /* Sloth Block */,
+				947707CF189E26C400AC9893 /* Sloth BlockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		947707A6189E26C400AC9893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B4BEAB18AEFC66009BB925 /* Midbackground-06.png in Resources */,
+				949664AE18A04FBB002AA3B0 /* SF_Archery_Black_Oblique.ttf in Resources */,
+				949664C518A09581002AA3B0 /* Red Berry@2x.png in Resources */,
+				949664CB18A09E21002AA3B0 /* GameOver-01.png in Resources */,
+				94B4BEA618AEFC66009BB925 /* Midbackground-01.png in Resources */,
+				9477087A189E779800AC9893 /* spark.png in Resources */,
+				949664BB18A08C3F002AA3B0 /* SlothToss-01.png in Resources */,
+				94B4BEAD18AF3ACA009BB925 /* PauseButton.png in Resources */,
+				94B4BE8A18AEF2F1009BB925 /* Sky-04.png in Resources */,
+				94B4BEBD18AFEB38009BB925 /* GameOver.png in Resources */,
+				949664AD18A04FBB002AA3B0 /* SF_Archery_Black.ttf in Resources */,
+				947EB32B18A5789B00B7B55D /* TrainTracks.png in Resources */,
+				94B4BE8B18AEF2F1009BB925 /* Sky-05.png in Resources */,
+				94B4BE9318AEF758009BB925 /* Farbackground1-04.png in Resources */,
+				949664D118A0A105002AA3B0 /* PlayAgain1.png in Resources */,
+				94770868189E6A9700AC9893 /* Clouds2.png in Resources */,
+				94770867189E6A9700AC9893 /* Clouds1.png in Resources */,
+				9477080D189E558F00AC9893 /* character.atlas in Resources */,
+				94A0F1B118B56E4B005DC621 /* PlayButtonButton.png in Resources */,
+				949664B418A08821002AA3B0 /* LoadingScreen.sks in Resources */,
+				94770809189E44C300AC9893 /* Blue Berry.png in Resources */,
+				94B4BE9118AEF758009BB925 /* Farbackground1-02.png in Resources */,
+				949664B118A04FBB002AA3B0 /* ShyFonts Font License.txt in Resources */,
+				949664B018A04FBB002AA3B0 /* SF_Archery_Black_SC_Oblique.ttf in Resources */,
+				9477087C189E8BA700AC9893 /* SlothBlockBG-01.jpg in Resources */,
+				949664AF18A04FBB002AA3B0 /* SF_Archery_Black_SC.ttf in Resources */,
+				94B4BEBB18AFE6B7009BB925 /* Twitter.png in Resources */,
+				949664C718A09587002AA3B0 /* Blue Berry@2x.png in Resources */,
+				94B4BEA818AEFC66009BB925 /* Midbackground-03.png in Resources */,
+				94B4BE9218AEF758009BB925 /* Farbackground1-03.png in Resources */,
+				94B4BE8718AEF2F1009BB925 /* Sky-01.png in Resources */,
+				94B4BEBF18AFEC87009BB925 /* button-10.mp3 in Resources */,
+				945CB5BA18A67EC80087BCC5 /* LongBackSky.png in Resources */,
+				94B4BE8818AEF2F1009BB925 /* Sky-02.png in Resources */,
+				94B4BE8918AEF2F1009BB925 /* Sky-03.png in Resources */,
+				94B4BEA918AEFC66009BB925 /* Midbackground-04.png in Resources */,
+				94B4BEBA18AFE6B7009BB925 /* Play.png in Resources */,
+				94770866189E6A9700AC9893 /* Clouds-01.png in Resources */,
+				947707B8189E26C400AC9893 /* InfoPlist.strings in Resources */,
+				945CB5B618A67CA10087BCC5 /* Midbackground.png in Resources */,
+				94B4BEA718AEFC66009BB925 /* Midbackground-02.png in Resources */,
+				94B4BEB218AFD040009BB925 /* KenRaps.mp3 in Resources */,
+				94A0F1AF18B56E45005DC621 /* PauseButtonButton.png in Resources */,
+				947707CB189E26C400AC9893 /* Images.xcassets in Resources */,
+				947707C1189E26C400AC9893 /* Main.storyboard in Resources */,
+				94770879189E779800AC9893 /* MyParticle.sks in Resources */,
+				949664C318A091BC002AA3B0 /* Cloud3.png in Resources */,
+				94B4BE9018AEF758009BB925 /* Farbackground1-01.png in Resources */,
+				94B4BEAF18AF3F3A009BB925 /* Pause-02.png in Resources */,
+				949664C218A091BC002AA3B0 /* Cloud2.png in Resources */,
+				94B4BEAA18AEFC66009BB925 /* Midbackground-05.png in Resources */,
+				94E45DB818B3EF54008FD29F /* Berries.sks in Resources */,
+				949664B518A08821002AA3B0 /* bokeh.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947707CE189E26C400AC9893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947707DC189E26C400AC9893 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		947707A4189E26C400AC9893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94770862189E66EA00AC9893 /* FMMParallaxNode.m in Sources */,
+				947707C4189E26C400AC9893 /* SlothViewController.m in Sources */,
+				947707BA189E26C400AC9893 /* main.m in Sources */,
+				94B4BEB518AFD112009BB925 /* SoundManager.m in Sources */,
+				947707BE189E26C400AC9893 /* SlothAppDelegate.m in Sources */,
+				945CB5E418A6D5350087BCC5 /* Round2.m in Sources */,
+				5DB5FBDF192B80B600D1C02E /* Instructions.m in Sources */,
+				94770882189E997D00AC9893 /* StartScene.m in Sources */,
+				949664A618A04639002AA3B0 /* GameOverScene.m in Sources */,
+				947707C7189E26C400AC9893 /* SlothMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947707CC189E26C400AC9893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947707DE189E26C400AC9893 /* Sloth_BlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		947707D6189E26C400AC9893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 947707A7189E26C400AC9893 /* Sloth Block */;
+			targetProxy = 947707D5189E26C400AC9893 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		947707B6189E26C400AC9893 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947707B7189E26C400AC9893 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		947707BF189E26C400AC9893 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947707C0189E26C400AC9893 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		947707DA189E26C400AC9893 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				947707DB189E26C400AC9893 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		947707DF189E26C400AC9893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		947707E0189E26C400AC9893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		947707E2189E26C400AC9893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4B2232Q834;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sloth Block/Sloth Block-Prefix.pch";
+				INFOPLIST_FILE = "Sloth Block/Sloth Block-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryantemple.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Sloth Block";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		947707E3189E26C400AC9893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4B2232Q834;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sloth Block/Sloth Block-Prefix.pch";
+				INFOPLIST_FILE = "Sloth Block/Sloth Block-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryantemple.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Sloth Block";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		947707E5189E26C400AC9893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sloth Block.app/Sloth Block";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sloth Block/Sloth Block-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sloth BlockTests/Sloth BlockTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryantemple.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Sloth BlockTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		947707E6189E26C400AC9893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sloth Block.app/Sloth Block";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sloth Block/Sloth Block-Prefix.pch";
+				INFOPLIST_FILE = "Sloth BlockTests/Sloth BlockTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryantemple.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "Sloth BlockTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		947707A3189E26C400AC9893 /* Build configuration list for PBXProject "Sloth Block" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947707DF189E26C400AC9893 /* Debug */,
+				947707E0189E26C400AC9893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947707E1189E26C400AC9893 /* Build configuration list for PBXNativeTarget "Sloth Block" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947707E2189E26C400AC9893 /* Debug */,
+				947707E3189E26C400AC9893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		947707E4189E26C400AC9893 /* Build configuration list for PBXNativeTarget "Sloth BlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				947707E5189E26C400AC9893 /* Debug */,
+				947707E6189E26C400AC9893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 947707A0189E26C400AC9893 /* Project object */;
+}
